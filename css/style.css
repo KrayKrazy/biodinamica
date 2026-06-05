@@ -149,7 +149,6 @@ a {
     z-index: -2;
     transform: translate(-50%, -50%);
     object-fit: cover;
-    filter: grayscale(30%); /* Makes neon pop more */
 }
 
 .hero-overlay {
