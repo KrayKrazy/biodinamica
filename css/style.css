@@ -335,6 +335,26 @@ a {
     padding: 100px 0;
 }
 
+.gallery-featured {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.gallery-featured img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    border: 2px solid var(--neon-main);
+    box-shadow: 0 4px 20px rgba(0, 168, 255, 0.2);
+    transition: transform 0.4s ease;
+}
+
+.gallery-featured img:hover {
+    transform: scale(1.02);
+}
+
 .gallery-grid {
     column-count: 3;
     column-gap: 1.5rem;
